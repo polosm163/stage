@@ -1,0 +1,5 @@
+ 
+ MyData resultMap = new DataMap();
+ 
+ MyData resultMap = new DataMap();
+ 

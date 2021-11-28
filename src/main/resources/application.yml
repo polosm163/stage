@@ -1,0 +1,23 @@
+spring:
+  profiles:
+    active: dev
+
+
+# Swagger设置
+swagger:
+  enable: true
+  authorization:
+    enable: false
+    whitelist:
+  version: 1.0.0
+  title: API文档管理
+  description: 可查看项目API接口文档，以及对接口的测试
+  package: com.asiainfo.system.manage
+  project:
+    name: 项目API文档
+  contact:
+    name: Asiainfo
+  readme:
+    url: /order_service_rest/README.md
+  url:
+  mail:
